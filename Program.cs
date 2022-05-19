@@ -9,7 +9,7 @@ class Program
     static Dictionary<string, Command> commandLookup = new Dictionary<string, Command>()
     {
         {"add", new Command { Id = 1, Name = "add", Description = "Adds a new item to list"}},
-        {"del", new Command { Id = 2, Name = "delete", Description = "Deletes an item from list"}},
+        {"del", new Command { Id = 2, Name = "del", Description = "Deletes an item from list"}},
         {"list", new Command { Id = 3, Name = "list", Description = "Prints all items in the list"}},
         {"info", new Command { Id = 4, Name = "info", Description = "Prints details about an item in the list"}},
         {"help", new Command { Id = 5, Name = "help", Description = "Shows all the available commands"}},
@@ -104,6 +104,7 @@ class Program
         if(inputArray.Length == 1)
         {
             string[] newInputArray = userInput.Split("=");
+            if(newInputArray.Length == 2) return new string[] {newInputArray[0], newInputArray[1]};
             return new string[2] { newInputArray[0], ""};
         }
         var command = inputArray[0];
@@ -114,18 +115,20 @@ class Program
 
     static int ValidateIndex(List<TodoItem> items, string indexString)
     {
-        int index = 0;
-        int.TryParse(indexString, out index);
+        int.TryParse(indexString, out int index);
         if (index - 1 < 0 || index > items.Count) return -1;
         return index;
     }
 
-    static void DeleteTask(List<TodoItem> tasks, string stringIndex)
+    static void DeleteTask(string stringIndex)
     {
-        int index = ValidateIndex(tasks, stringIndex);
-        if (tasks != null)
+        todoList = JsonFileUtils.ReadFromFile(fileName);
+        int index = ValidateIndex(todoList, stringIndex);
+        Console.WriteLine("index: " + index);
+        if (todoList != null)
         {
-            tasks.RemoveAt(index);
+            todoList.RemoveAt(index-1);
+            JsonFileUtils.SaveToFile(todoList, fileName);
         }
     }
 
@@ -176,7 +179,7 @@ class Program
         if (string.IsNullOrEmpty(userInput)) return false;
 
         string command = "";
-        if (userInput.ToLowerInvariant().StartsWith("complete"))
+        if (userInput.ToLowerInvariant().StartsWith("complete") || userInput.ToLowerInvariant().StartsWith("del"))
         {
             var input = userInput.Split("=");
             command += input[0];
@@ -208,7 +211,7 @@ class Program
                 PrintTasks();
                 break;
             case Commands.DELETE:
-                DeleteTask(todoList, task);
+                DeleteTask(task);
                 break;
             case Commands.HELP:
                 PrintHelp();

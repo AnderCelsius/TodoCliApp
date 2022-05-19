@@ -17,6 +17,7 @@ public static class JsonFileUtils
 
     public static List<TodoItem> ReadFromFile(string fileName)
     {
+        if(!File.Exists(fileName)) File.CreateText(fileName);
         using var streamReader = File.OpenText(fileName);
         using var jsonWriter = new JsonTextReader(streamReader);
         var result = JsonSerializer.CreateDefault(_options).Deserialize<List<TodoItem>>(jsonWriter);
