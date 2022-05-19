@@ -1,0 +1,6 @@
+/Users/decagon/Desktop/projects/CliDemo/TodoCliApp/bin/Debug/net6.0/publish/TodoCliApp
+/Users/decagon/Desktop/projects/CliDemo/TodoCliApp/bin/Debug/net6.0/publish/TodoCliApp.dll
+/Users/decagon/Desktop/projects/CliDemo/TodoCliApp/bin/Debug/net6.0/publish/TodoCliApp.deps.json
+/Users/decagon/Desktop/projects/CliDemo/TodoCliApp/bin/Debug/net6.0/publish/TodoCliApp.runtimeconfig.json
+/Users/decagon/Desktop/projects/CliDemo/TodoCliApp/bin/Debug/net6.0/publish/TodoCliApp.pdb
+/Users/decagon/Desktop/projects/CliDemo/TodoCliApp/bin/Debug/net6.0/publish/Newtonsoft.Json.dll

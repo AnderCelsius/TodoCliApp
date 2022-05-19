@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>TodoCliApp</id>
+    <version>1.0.0</version>
+    <authors>TodoCliApp</authors>
+    <description>Package Description</description>
+    <packageTypes>
+      <packageType name="DotnetTool" />
+    </packageTypes>
+  </metadata>
+  <files>
+    <file src="/Users/decagon/Desktop/projects/CliDemo/TodoCliApp/obj/DotnetToolSettings.xml" target="tools/net6.0/any/DotnetToolSettings.xml" />
+    <file src="/Users/decagon/Desktop/projects/CliDemo/TodoCliApp/bin/Debug/net6.0/publish/TodoCliApp.dll" target="tools/net6.0/any/TodoCliApp.dll" />
+    <file src="/Users/decagon/Desktop/projects/CliDemo/TodoCliApp/bin/Debug/net6.0/publish/TodoCliApp.deps.json" target="tools/net6.0/any/TodoCliApp.deps.json" />
+    <file src="/Users/decagon/Desktop/projects/CliDemo/TodoCliApp/bin/Debug/net6.0/publish/TodoCliApp.runtimeconfig.json" target="tools/net6.0/any/TodoCliApp.runtimeconfig.json" />
+    <file src="/Users/decagon/Desktop/projects/CliDemo/TodoCliApp/bin/Debug/net6.0/publish/TodoCliApp.pdb" target="tools/net6.0/any/TodoCliApp.pdb" />
+    <file src="/Users/decagon/Desktop/projects/CliDemo/TodoCliApp/bin/Debug/net6.0/publish/Newtonsoft.Json.dll" target="tools/net6.0/any/Newtonsoft.Json.dll" />
+  </files>
+</package>

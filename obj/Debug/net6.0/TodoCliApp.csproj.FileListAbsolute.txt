@@ -1,0 +1,17 @@
+/Users/decagon/Desktop/projects/CliDemo/TodoCliApp/bin/Debug/net6.0/TodoCliApp
+/Users/decagon/Desktop/projects/CliDemo/TodoCliApp/bin/Debug/net6.0/TodoCliApp.deps.json
+/Users/decagon/Desktop/projects/CliDemo/TodoCliApp/bin/Debug/net6.0/TodoCliApp.runtimeconfig.json
+/Users/decagon/Desktop/projects/CliDemo/TodoCliApp/bin/Debug/net6.0/TodoCliApp.dll
+/Users/decagon/Desktop/projects/CliDemo/TodoCliApp/bin/Debug/net6.0/TodoCliApp.pdb
+/Users/decagon/Desktop/projects/CliDemo/TodoCliApp/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/decagon/Desktop/projects/CliDemo/TodoCliApp/obj/Debug/net6.0/TodoCliApp.csproj.AssemblyReference.cache
+/Users/decagon/Desktop/projects/CliDemo/TodoCliApp/obj/Debug/net6.0/TodoCliApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/decagon/Desktop/projects/CliDemo/TodoCliApp/obj/Debug/net6.0/TodoCliApp.AssemblyInfoInputs.cache
+/Users/decagon/Desktop/projects/CliDemo/TodoCliApp/obj/Debug/net6.0/TodoCliApp.AssemblyInfo.cs
+/Users/decagon/Desktop/projects/CliDemo/TodoCliApp/obj/Debug/net6.0/TodoCliApp.csproj.CoreCompileInputs.cache
+/Users/decagon/Desktop/projects/CliDemo/TodoCliApp/obj/Debug/net6.0/TodoCliApp.csproj.CopyComplete
+/Users/decagon/Desktop/projects/CliDemo/TodoCliApp/obj/Debug/net6.0/TodoCliApp.dll
+/Users/decagon/Desktop/projects/CliDemo/TodoCliApp/obj/Debug/net6.0/refint/TodoCliApp.dll
+/Users/decagon/Desktop/projects/CliDemo/TodoCliApp/obj/Debug/net6.0/TodoCliApp.pdb
+/Users/decagon/Desktop/projects/CliDemo/TodoCliApp/obj/Debug/net6.0/TodoCliApp.genruntimeconfig.cache
+/Users/decagon/Desktop/projects/CliDemo/TodoCliApp/obj/Debug/net6.0/ref/TodoCliApp.dll
